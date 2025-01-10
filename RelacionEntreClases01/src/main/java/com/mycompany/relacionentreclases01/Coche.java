@@ -40,5 +40,6 @@ public class Coche {
     
     public String toString(){
         return "Propietarios " + this.propietario.getNombre() + " Marca: " + this.marca + " km: " + this.km;
+        //al poner el .getNombre() hacemos que solo aparezca el nombre de propietario que pertenece a la clase persona
     }
 }

@@ -1,4 +1,5 @@
 
+                                            /*Asociacion simple*/
 
 package com.mycompany.relacionentreclases01;
 
