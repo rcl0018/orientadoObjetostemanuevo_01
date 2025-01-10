@@ -18,11 +18,10 @@ public class Equipo {
         this.jugadores = j;
         
     }
+    
     public void imprimirListaJugadores(){
         for (int i = 0; i < jugadores.length; i++) {
-            Jugador jugadore = jugadores[i];
-            
+            System.out.println(this.jugadores[i].getNombre());
         }
     }
- 
 }
