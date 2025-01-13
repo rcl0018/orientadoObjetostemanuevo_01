@@ -1,16 +1,45 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.mycompany.ejercicio12;
 
-/**
- *
- * @author PC205
- */
+import java.util.Scanner;
+
+
 public class Ejercicio12 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner sc = new Scanner(System.in);
+        
+        
+        /*creamos la vivienda*/
+        System.out.println("Dime tu nombre ");
+        String nom = sc.next();
+        System.out.println("Dime el valor de la vivienda");
+        int valor = sc.nextInt();
+        System.out.println("Cual es la direccion de la vivienda");
+        String direccion = sc.next();
+        System.out.println("Cuantas habitaciones tiene");
+        int nHabitaciones = sc.nextInt();
+        
+        
+        /*creamos las habitaciones*/
+        int []habitacion = new habitacion[nHabitaciones];
+        Habitacion []vivienda1= {new Habitacion(nombreEstancia,lado1,lado2)};
+        
+        for (int i = 0; i < habitacion.length; i++) {
+            System.out.println("Nombre de la estancia");
+            String nombreEstancia = sc.next();
+            System.out.println("dime el lado 1 y el lado2 ");
+            int lado1 = sc.nextInt();
+            int lado2 = sc.nextInt();
+            ;
+        }
+
+        
+        
+        
+        
+        
+        
+        
     }
 }

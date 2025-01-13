@@ -11,7 +11,6 @@ public class Ejercicio11 {
        new Animale("aguila", "ave", 25)
          };
    
-   Sabana sa = new Sabana(persona1,2020,3838484,"si",animales);
+   Sabana sa = new Sabana(persona1,2020,3838484,"si",animales);     
    
-      
 }
