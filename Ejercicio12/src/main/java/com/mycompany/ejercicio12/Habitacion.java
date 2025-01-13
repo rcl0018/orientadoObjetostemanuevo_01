@@ -16,6 +16,7 @@ public class Habitacion {
     
     public void calcularVivienda(){
        int areaTotal =  this.lado1 * this.lado2;
+        System.out.println("el area es de " + areaTotal + "m2");
     
     }
     
