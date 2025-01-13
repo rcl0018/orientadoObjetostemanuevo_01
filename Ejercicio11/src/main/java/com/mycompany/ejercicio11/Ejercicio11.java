@@ -2,7 +2,7 @@
 package com.mycompany.ejercicio11;
 
 
-public class Main {
+public class Ejercicio11 {
     Persona persona1 = new Persona("alberto", "77433245L",602216889);
 
    Animale[] animales = {
@@ -12,7 +12,6 @@ public class Main {
          };
    
    Sabana sa = new Sabana(persona1,2020,3838484,"si",animales);
-   sa.
    
       
 }
