@@ -22,16 +22,15 @@ public class Ejercicio12 {
         
         
         /*creamos las habitaciones*/
-        int []habitacion = new habitacion[nHabitaciones];
-        Habitacion []vivienda1= {new Habitacion(nombreEstancia,lado1,lado2)};
+        Habitacion []habitacioni =new Habitacion[nHabitaciones];
         
-        for (int i = 0; i < habitacion.length; i++) {
+        for (int i = 0; i < habitacioni.length; i++) {
             System.out.println("Nombre de la estancia");
             String nombreEstancia = sc.next();
             System.out.println("dime el lado 1 y el lado2 ");
             int lado1 = sc.nextInt();
             int lado2 = sc.nextInt();
-            ;
+            habitacioni[i] = 
         }
 
         
