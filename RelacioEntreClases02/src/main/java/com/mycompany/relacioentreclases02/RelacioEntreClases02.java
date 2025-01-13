@@ -22,4 +22,5 @@ public class RelacioEntreClases02 {
         Equipo equipo1 = new Equipo ("real mdrid", "Madrid", 10000,jugadores);
         equipo1.imprimirListaJugadores();
     }
+    
 }
