@@ -1,8 +1,6 @@
 
 package com.mycompany.relacioentreclases02;
 
-import java.util.Arrays;
-
 
 public class Equipo {
     
