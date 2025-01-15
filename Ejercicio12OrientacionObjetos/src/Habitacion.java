@@ -1,10 +1,6 @@
-
-package com.mycompany.ejercicio12;
-
-
 public class Habitacion {
-    
-      private String nombreEstancia;
+
+    private String nombreEstancia;
     private int lado1;
     private int lado2;
 
@@ -22,5 +18,6 @@ public class Habitacion {
         int areaTotal =  this.lado1 * this.lado2;
         return areaTotal;
     }
-    
+
+
 }

@@ -1,10 +1,5 @@
-
-package com.mycompany.ejercicio12;
-
-
 public class Vivienda {
-    
-     private String nombreP;
+    private String nombreP;
     private int valorVivienda;
     private String DireccionVivienda;
     private Habitacion[] habitacione;
@@ -32,5 +27,6 @@ public class Vivienda {
 
 
     }
-    
+
+
 }
