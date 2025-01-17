@@ -15,6 +15,7 @@ public class Editorial {
     @Override
     public String toString() {
         return "Editorial{" + "nombre=" + nombre + ", pais=" + pais + ", cantidadLibrosPublicados=" + cantidadLibrosPublicados + '}';
+
     }
     
     
